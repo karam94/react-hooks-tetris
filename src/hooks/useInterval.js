@@ -20,3 +20,5 @@ export function useInterval(callback, delay) {
     }
   }, [delay]);
 }
+
+// From Dan Abramov's blog: https://overreacted.io/making-setinterval-declarative-with-react-hooks/
